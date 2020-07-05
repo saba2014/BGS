@@ -22,6 +22,8 @@
 16. in app container     -> php artisan make:job SendMail
 17. in app container     -> php artisan queue:work --queue=high,default
 
+in .env file change QUEUE_CONNECTION=, DB_settings .., MAIL_settings, APP_URL & etc
+
 Инструкция по работе API:
 
 Проше простого все наглядно.
