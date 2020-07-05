@@ -1,9 +1,11 @@
-RUN
+
+
+Инструкция для запуска: 
 
 1.  in app dir           -> docker-compose up -d
-2.  in app dir           ->docker-compose exec app bash
+2.  in app dir           -> docker-compose exec app bash
 3.  in app container     -> composer require laravel/ui
-4.  in app container     ->  php artisan ui vue --auth
+4.  in app container     -> php artisan ui vue --auth
 
 5.  in local project dir -> npm install    
 6.  in local project dir -> npm run dev
@@ -19,6 +21,17 @@ RUN
 15. in app container     -> php artisan migrate
 16. in app container     -> php artisan make:job SendMail
 17. in app container     -> php artisan queue:work --queue=high,default
+
+Инструкция по работе API:
+
+Проше простого все наглядно.
+a) Для филтрации на шапке таблиы есть инпут,выводим там текст,
+API ишет на базе похожый про называние Мероприятие и выыодит есле есть совподение!
+б) Клик на карандаш с права редактирует участника 
+в) Клик  на крестик с права удалить участника
+с) Клик Плюсик с лева  откроет форму для добвления ногого участника с уникальной почтой
+
+
  
 
 
